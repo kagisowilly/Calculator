@@ -1,72 +1,62 @@
-html, body {
-    height: 100%;
-    width: 100%;
-    background-color: #696664;
-  }
-
-
-
-  .btn {
-    height: 50px;
-    border: none;
-  }
-  h1{
-      color: rgb(185, 185, 185);
-  }
-  .calculator{
-    text-align:center;
-    width: 300px;
-    height: 420px;
-    border-radius: 10px;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-color: #2f2f2f;
-    padding: 5px;
-  }
-
-  .buttons {
-    width: 275px;
-    text-align: center;
-    margin:10px auto;
-  }
-
-  .btn{
-    float: left;
-    margin: 2px;
-    width: 64.75px;
-    color: #7c7b79;
-    background: rgb(95, 240, 232);
-    cursor: pointer;
-      border-radius: 20px;
-  }
-.operator{
-    background-color:rgb(1, 80, 155) ;
-    color: #cccfce;
+body {
+  background-color: #696664;
 }
-  .textbox {
-    margin-top: 10px;
-    text-align: right;
-    border: 1px solid snow;
-    border-radius: 5px;
-    height: 50px;
-    width: 275px;
-    background-color: #f4fff1;
-    color: rgb(0, 0, 0);
-    margin-left: 10px;
-  }
-  .clrbtn{
-    width: 275px;
-    text-align: center;
-    margin:10px auto;
-    color: #ffffff;
-    background: rgb(105, 0, 0);
-    cursor: pointer;
-    height: 50px;
-    border: none;
-    border-radius: 5px;
-  }
-  .equal{
-    background: rgb(105, 0, 0);
-    color: #ffffff;
-  }
+
+.btn {
+  height: 70px;
+  border: none;
+  border-radius: 30px;
+}
+h1 {
+  color: rgb(185, 185, 185);
+}
+.calculator {
+  text-align: center;
+  width: 300px;
+  height: 520px;
+  border-radius: 10px;
+  position: absolute;
+  background-color: #2f2f2f;
+  padding: 10px;
+}
+
+.buttons {
+  width: 275px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.btn {
+  float: left;
+  margin: 2px;
+  width: 64.75px;
+  background: rgb(95, 240, 232);
+}
+.operator {
+  background-color: rgb(1, 80, 155);
+  color: #cccfce;
+}
+.textbox {
+  margin-top: 10px;
+  text-align: right;
+  border-radius: 5px;
+  height: 70px;
+  width: 275px;
+  background-color: #f4fff1;
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+}
+.control-button {
+  width: 275px;
+  text-align: center;
+  margin: 10px auto;
+  color: #ffffff;
+  background: rgb(105, 0, 0);
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+}
+.equal {
+  background: rgb(105, 0, 0);
+  color: #ffffff;
+}
