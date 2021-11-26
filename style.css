@@ -38,6 +38,7 @@ html, body {
     color: #7c7b79;
     background: rgb(95, 240, 232);
     cursor: pointer;
+      border-radius: 20px;
   }
 .operator{
     background-color:rgb(1, 80, 155) ;
